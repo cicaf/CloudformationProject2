@@ -63,3 +63,19 @@ Security Groups and Roles
 
 Last thing: Remember to delete your CloudFormation stack when you're done to avoid recurring charges!
 
+INFRASTRUCTURE STACK COMMAND::::::
+cd Home/repos/CloudformationProject2
+
+./create.sh udagram-Servers servers.yml server-parameters.json aws-user-profile
+
+aws cloudformation create-stack --stack-name Udagram --template-body file://infra.yml --parameters file://infra.json --region=us-east-1
+
+SERVERS CREATE STACK COMMAND::::
+cd Home/repos/CloudformationProject2
+
+aws cloudformation create-stack --stack-name Udagram-servers --template-body file://servers.yml --parameters file://servers.json --region=us-east-1
+
+
+
+
+
