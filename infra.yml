@@ -1,6 +1,6 @@
 Parameters:
   EnvironmentName:
-    Description: An environment for the Resources.
+    Description: Omar Wakah Highly available Udagram instagram clone
     Type: String
   
   VpcCIDR:
