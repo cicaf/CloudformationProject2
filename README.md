@@ -65,6 +65,7 @@ Last thing: Remember to delete your CloudFormation stack when you're done to avo
 
 INFRASTRUCTURE DIAGRAM:::::::::::::
 
+![Screenshot from 2023-01-08 03-13-35](https://user-images.githubusercontent.com/61315925/211175107-340b6e73-459c-4b25-9750-5aa26eafe269.png)
 
 
 INFRASTRUCTURE STACK COMMAND::::::
