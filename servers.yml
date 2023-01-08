@@ -89,7 +89,7 @@ Resources:
       SecurityGroups:
         - Ref: WebServerSecGroup
       InstanceType: t3.medium
-      ImageId: ami-005bdb005fb00e791
+      ImageId: ami-08fdec01f5df9998f 
       IamInstanceProfile: !Ref RootInstanceProfile
       BlockDeviceMappings:
         - DeviceName: "/dev/sdk"
