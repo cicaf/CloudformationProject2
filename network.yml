@@ -1,32 +1,39 @@
+Description: Omar W/Devops-SRE
+    This Udagram is an instagram like clone project, with a pair private and public sbs across
+    two availability zones.It deploys an Internet gateway, with a default route on the public
+    subnets.It deploys a pair of NAT Gateways (one in each AZ),and default routes for them
+    int the private subnets.
+
+
 Parameters:
   EnvironmentName:
-    Description: Omar Wakah Highly available Udagram instagram clone
+    Description: available Udagram instagram clone project
     Type: String
   
   VpcCIDR:
     Description: The IP CIDR range for this resources
     Type: String
-    Default: 10.190.0.0/16
+    Default: 10.192.0/16
 
   PublicSubnet1CIDR:
     Description: The IP CIDR for the public subnet in the first AZ
     Type: String
-    Default: 10.190.0.0/24
+    Default: 10.192.0.0/24
 
   PublicSubnet2CIDR:
     Description: The IP CIDR for the public subnet in 2nd AZ
     Type: String
-    Default: 10.190.1.0/24
+    Default: 10.192.1.0/24
 
   PrivateSubnet1CIDR:
     Description: IP CIDR for  first Availability Zone
     Type: String
-    Default: 10.190.2.0/24
+    Default: 10.192.2.0/24
 
   PrivateSubnet2CIDR:
     Description: CIDR of private subnet in AZ2
     Type: String
-    Default: 10.190.3.0/24
+    Default: 10.192.3.0/24
 
 Resources:
   VPC:
