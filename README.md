@@ -1,4 +1,4 @@
-PROBLEM SCENARIO::::
+﻿PROBLEM SCENARIO::::
 
 Your company is creating an Instagram clone called Udagram.
 
@@ -63,6 +63,10 @@ Security Groups and Roles
 
 Last thing: Remember to delete your CloudFormation stack when you're done to avoid recurring charges!
 
+INFRASTRUCTURE DIAGRAM:::::::::::::
+
+
+
 INFRASTRUCTURE STACK COMMAND::::::
 cd Home/repos/CloudformationProject2
 
@@ -73,7 +77,7 @@ aws cloudformation create-stack --stack-name Udagram --template-body file://infr
 SERVERS CREATE STACK COMMAND::::
 cd Home/repos/CloudformationProject2
 
-aws cloudformation create-stack --stack-name Udagram-servers --template-body file://servers.yml --parameters file://servers.json --region=us-east-1
+aws cloudformation create-stack --stack-name Udagram-servers --template-body file://servers.yml --parameters file://server-parameters.json --region=us-east-1
 
 
 
