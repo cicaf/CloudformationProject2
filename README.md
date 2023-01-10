@@ -81,9 +81,10 @@ cd Home/repos/CloudformationProject2
 aws cloudformation create-stack --stack-name Udagram-servers --template-body file://servers.yml --parameters file://server-parameters.json –region=us-east-1
 
 
-PROJECT-OUTPUT LINK:::::::::::::
+PROJECT-OUTPUT LINK::NEW OUTPUT LINK:::::::::::
 
-http://udagr-webap-1kr0veob5d4q-813482164.us-east-1.elb.amazonaws.com/
+http://udagr-webap-x6zd744nrwsm-1347956326.us-east-1.elb.amazonaws.com/
+
 
 
 
